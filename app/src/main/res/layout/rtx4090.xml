@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Imagen de la tarjeta gráfica -->
+
+    <!-- Nombre de la tarjeta gráfica -->
+
+    <!-- Descripción de la tarjeta gráfica -->
+
+    <!-- Especificaciones técnicas de la tarjeta gráfica -->
+
+    <ImageView
+        android:id="@+id/rtxImage"
+        android:layout_width="256dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/rtx_image_desc"
+        android:src="@drawable/picture1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rtxName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="NVIDIA GeForce RTX 4090"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rtxImage" />
+
+    <TextView
+        android:id="@+id/rtxDescription"
+        android:layout_width="346dp"
+        android:layout_height="221dp"
+        android:paddingTop="8dp"
+        android:text="@string/rtx_description"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/rtxSpecs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rtxName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/rtxSpecs"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="80dp"
+        android:paddingTop="8dp"
+        android:text="@string/rtx_specs"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="229dp"
+        android:layout_height="37dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

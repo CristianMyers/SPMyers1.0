@@ -1,0 +1,7 @@
+<resources>
+<string name="rtx_image_desc">Imagen de la tarjeta gráfica NVIDIA GeForce RTX 4090</string>
+<string name="rtx_description">Descripcion:NVIDIA® GeForce RTX® 4090 es la GPU GeForce definitiva. Brinda un gran salto en rendimiento, eficiencia y gráficos impulsados ​​​​por IA. Experimenta juegos de rendimiento ultra alto, mundos virtuales increíblemente detallados, productividad sin precedentes y nuevas formas de crear. Está impulsada por la arquitectura NVIDIA Ada Lovelace y viene con 24 GB de memoria G6X para brindar la mejor experiencia para jugadores y creadores..</string>
+<string name="rtx_specs">Especificaciones: DLSS 3 ,24GB GDDR6X, 10496 núcleos CUDA, etc.</string>
+<string name="app_name">Proyecto1</string>
+</resources>
+
