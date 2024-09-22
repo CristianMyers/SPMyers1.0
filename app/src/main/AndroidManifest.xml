@@ -22,13 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Nueva actividad ProductoActivity -->
-        <activity android:name=".ProductoActivity" />
-
-        <!-- Nueva actividad RTX4090Activity -->
         <activity android:name=".RTX4090Activity" />
-
+        <activity android:name=".I914900KFActivity" />
+        <activity android:name=".Ryzen9950XActivity" />
+        <activity android:name=".RTX4070Activity" />
+        <activity android:name=".I512600KFActivity" />
+        <activity android:name=".SamsungOdysseyG6Activity" />
+        <activity android:name=".ProductoActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".VentasActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/DialogTheme">
+        </activity>
     </application>
 
 </manifest>

@@ -6,33 +6,30 @@ import androidx.viewpager2.widget.ViewPager2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RTX4090Activity extends AppCompatActivity {
+public class I512600KFActivity extends AppCompatActivity {
 
     private ViewPager2 viewPager2;
-    private RTX4090ImageAdapter adapter;
+    private I512600KFImageAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rtx4090);  // Asegúrate de que el nombre del layout coincida con el XML correcto
+        setContentView(R.layout.activity_i512600kf);  // Asegúrate de que el nombre del layout coincide con el XML correcto
 
         // Referencias a las vistas del XML
         viewPager2 = findViewById(R.id.viewPager);
 
-        // Crear una lista de imágenes (estas son las que has añadido a /res/drawable)
+        // Crear una lista de imágenes
         List<Integer> images = new ArrayList<>();
-        images.add(R.drawable.rtx_4090_image1);
-        images.add(R.drawable.rtx_4090_image2);
-        images.add(R.drawable.rtx_4090_image3);
-        images.add(R.drawable.rtx_4090_image4);
+        images.add(R.drawable.i5_12600kf_image1);
+        images.add(R.drawable.i5_12600kf_image2);
+        images.add(R.drawable.i5_12600kf_image3);
+        images.add(R.drawable.i5_12600kf_image4);
         // Añade más imágenes según sea necesario
 
         // Configurar el adaptador con la lista de imágenes
-        adapter = new RTX4090ImageAdapter(images);
+        adapter = new I512600KFImageAdapter(images);
         viewPager2.setAdapter(adapter);
     }
 }
-
-
-
 

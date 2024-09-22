@@ -17,11 +17,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/rtxName"
+        android:id="@+id/ryzenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="MSI GeForce RTX 4090 GAMING SLIM 24G "
+        android:text="AMD Ryzen 9 9950X"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,44 +30,44 @@
         app:layout_constraintTop_toBottomOf="@id/viewPager" />
 
     <TextView
-        android:id="@+id/rtxDescription"
+        android:id="@+id/ryzenDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:paddingTop="8dp"
-        android:text="@string/rtx_description"
+        android:text="@string/ryzen_description"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxName" />
+        app:layout_constraintTop_toBottomOf="@id/ryzenName" />
 
     <TextView
-        android:id="@+id/rtxSpecs"
+        android:id="@+id/ryzenSpecs"
         android:layout_width="378dp"
         android:layout_height="101dp"
         android:layout_marginTop="16dp"
         android:paddingTop="8dp"
-        android:text="@string/rtx_specs"
+        android:text="@string/ryzen_specs"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxDescription" />
+        app:layout_constraintTop_toBottomOf="@id/ryzenDescription" />
 
     <TextView
-        android:id="@+id/rtxPrice"
+        android:id="@+id/ryzenPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="Precio: $1992780.00"
+        android:text="Precio: $777407.00"
         android:textColor="#FF0000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxSpecs" />
+        app:layout_constraintTop_toBottomOf="@id/ryzenSpecs" />
 
     <Button
         android:id="@+id/buyButton"
@@ -78,10 +78,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxPrice" />
+        app:layout_constraintTop_toBottomOf="@id/ryzenPrice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_processors"
+        android:title="Procesadores"/>
+    <item
+        android:id="@+id/nav_graphics"
+        android:title="Gráficas"/>
+    <item
+        android:id="@+id/nav_ram"
+        android:title="RAM"/>
+    <item
+        android:id="@+id/nav_power_supplies"
+        android:title="Fuentes de Poder"/>
+    <item
+        android:id="@+id/nav_cabinets"
+        android:title="Gabinetes"/>
+    <item
+        android:id="@+id/nav_peripherals"
+        android:title="Periféricos"/>
+</menu>
+
+

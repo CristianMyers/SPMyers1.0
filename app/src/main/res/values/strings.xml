@@ -1,7 +1,39 @@
 <resources>
 <string name="rtx_image_desc">Imagen de la tarjeta gráfica NVIDIA GeForce RTX 4090</string>
-<string name="rtx_description">Descripcion:NVIDIA® GeForce RTX® 4090 es la GPU GeForce definitiva. Brinda un gran salto en rendimiento, eficiencia y gráficos impulsados ​​​​por IA. Experimenta juegos de rendimiento ultra alto, mundos virtuales increíblemente detallados, productividad sin precedentes y nuevas formas de crear. Está impulsada por la arquitectura NVIDIA Ada Lovelace y viene con 24 GB de memoria G6X para brindar la mejor experiencia para jugadores y creadores..</string>
-<string name="rtx_specs">Especificaciones: DLSS 3 ,24GB GDDR6X, 10496 núcleos CUDA, etc.</string>
-<string name="app_name">Proyecto1</string>
+    <string name="rtx_description">
+    Características:
+    Fabricante: MSI
+    GPU: NVIDIA GeForce RTX 4090
+    Memoria: 24 GB GDDR6X (384 bit)
+    Bus: PCI Express 4.0 x16
+    Frecuencias del core (base / boost / OC): 2235 / 2520 / 2535 MHz
+    Frecuencia de la memoria: 1325 MHz
+</string>
+    <string name="rtx_specs">
+    Especificaciones secundarias:
+    Núcleo: NVIDIA Lovelace AD102
+    Perfil: Normal
+    Refrigeración: Ventilador
+    Slots: Dual slot
+    Largo: 322 mm
+    Iluminación: RGB Programable
+    ¿Backplate?: Sí
+    Conectores de poder: 1x 16 pines (12VHPWR)
+    Puertos de video: 2x DisplayPort, 2x HDMI
+</string>
+    <string name="product_description">Caracteristicas:Frecuencia base de 3200 MHz y frecuencia turbo máxima de 6000 MHz. Incluye 8 núcleos de rendimiento (P-cores) y 16 núcleos de eficiencia (E-cores), con un total de 32 hilos. Caché de 2 x 24 MB L2 y 36 MB L3. Compatible con socket LGA 1700.</string>
+    <string name="product_specs">Especificaciones Secundarias: Núcleo Intel Raptor Lake-S Refresh (Raptor Lake), proceso de manufactura de 10 nm, TDP de 125 W, sin cooler incluido y sin gráficos integrados.</string>
+    <string name="nav_header_image_description">Descripción de la imagen del encabezado</string>
+    <string name="app_name">Proyecto1</string>
+    <!-- Especificaciones del Ryzen 9 9950X -->
+    <string name="ryzen_description">Características: Frecuencia: 4300 MHz, Frecuencia turbo máxima: 5700 MHz, Núcleos / hilos: 16 núcleos / 32 hilos, Caché: 16 x 1MB L2 / 64MB L3, Socket: AM5.</string>
+    <string name="ryzen_specs">Especificaciones Secundarias: Núcleo: AMD Granite Ridge (Zen 5), Proceso de manufactura: 4 nm, TDP: 170 W, Cooler: No posee, Gráficos integrados: No posee.</string>
+    <string name="rtx4070_description">Características: Fabricante Zotac, GPU NVIDIA GeForce RTX 4070, Memoria de 12 GB GDDR6X (192 bits), Bus PCI Express 4.0 x16, Frecuencias core (base / boost) 1920 / 2475 MHz, Frecuencia memorias 1313 MHz.</string>
+    <string name="rtx4070_specs">Especificaciones Secundarias: Núcleo NVIDIA Lovelace AD104, Perfil Normal, Refrigeración Ventilador, Slots Dual slot, Largo 226 mm, Iluminación No posee, ¿Backplate? Sí, Conectores de poder: 1x 8 pines, Puertos de video: 3x DisplayPort, 1x HDMI.</string>
+    <string name="i5_12600kf_description">Características: Frecuencia base de 3700 MHz y frecuencia turbo máxima de 4900 MHz. Incluye 6 núcleos de rendimiento (P-cores) y 4 núcleos de eficiencia (E-cores), con un total de 16 hilos. Caché de 9 MB L2 y 18 MB L3. Compatible con socket LGA 1700.</string>
+    <string name="i5_12600kf_specs">Especificaciones Secundarias: Núcleo Intel Alder Lake S (Alder Lake), proceso de manufactura de 10 nm, TDP de 125 W, sin cooler incluido y gráficos integrados Intel UHD 770.</string>
+    <string name="samsung_odyssey_g6_description">Características: Monitor gaming de 32 pulgadas con tecnología LED, resolución Quad HD (2560 x 1440), tiempo de respuesta de 1 ms y tasa de refresco de 240 Hz. Compatible con FreeSync, ofrece una experiencia de juego fluida.</string>
+    <string name="samsung_odyssey_g6_specs">Especificaciones Secundarias: Panel VA curvo (1000R), brillo máximo de 300 cd/m², contraste de 2500:1, puertos 1x DisplayPort 1.4 y 2x HDMI 2.1. Incluye ajustes de altura e inclinación.</string>
+
 </resources>
 

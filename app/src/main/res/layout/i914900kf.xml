@@ -6,82 +6,81 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- ViewPager2 para el álbum de fotos -->
+
+    <!-- Nombre del producto -->
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
-        android:layout_width="0dp"
-        android:layout_height="210dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="348dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/rtxName"
+        android:id="@+id/productName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="MSI GeForce RTX 4090 GAMING SLIM 24G "
+        android:layout_marginTop="16dp"
+        android:text="Intel Core i9-14900KF"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/viewPager" />
 
     <TextView
-        android:id="@+id/rtxDescription"
+        android:id="@+id/productDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:paddingTop="8dp"
-        android:text="@string/rtx_description"
+        android:text="@string/product_description"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxName" />
+        app:layout_constraintTop_toBottomOf="@id/productName" />
 
     <TextView
-        android:id="@+id/rtxSpecs"
-        android:layout_width="378dp"
-        android:layout_height="101dp"
+        android:id="@+id/productSpecs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:paddingTop="8dp"
-        android:text="@string/rtx_specs"
+        android:text="@string/product_specs"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxDescription" />
+        app:layout_constraintTop_toBottomOf="@id/productDescription" />
 
     <TextView
-        android:id="@+id/rtxPrice"
+        android:id="@+id/productPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="Precio: $1992780.00"
+        android:layout_marginTop="24dp"
+        android:text="Precio: $664990.00"
         android:textColor="#FF0000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxSpecs" />
+        app:layout_constraintTop_toBottomOf="@id/productSpecs" />
 
     <Button
         android:id="@+id/buyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:text="Comprar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rtxPrice" />
+        app:layout_constraintTop_toBottomOf="@id/productPrice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para la actividad como diálogo -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Puedes personalizar más atributos aquí si es necesario -->
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="android:backgroundDimEnabled">true</item> <!-- Para hacer que el fondo sea más oscuro -->
+    </style>
+
+</resources>
