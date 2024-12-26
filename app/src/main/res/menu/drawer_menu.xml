@@ -7,6 +7,9 @@
         android:id="@+id/nav_graphics"
         android:title="Gráficas"/>
     <item
+        android:id="@+id/nav_motherboards"
+        android:title="Placas Madre"/>
+    <item
         android:id="@+id/nav_ram"
         android:title="RAM"/>
     <item

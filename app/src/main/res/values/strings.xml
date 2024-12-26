@@ -1,5 +1,5 @@
 <resources>
-<string name="rtx_image_desc">Imagen de la tarjeta gráfica NVIDIA GeForce RTX 4090</string>
+    <string name="rtx_image_desc">Imagen de la tarjeta gráfica NVIDIA GeForce RTX 4090</string>
     <string name="rtx_description">
     Características:
     Fabricante: MSI

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permisos y otras configuraciones -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,30 +17,75 @@
         android:theme="@style/Theme.Proyecto1"
         tools:targetApi="31">
 
-        <!-- Main Activity -->
+        <!-- Actividades existentes -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RTX4090Activity" />
-        <activity android:name=".I914900KFActivity" />
-        <activity android:name=".Ryzen9950XActivity" />
-        <activity android:name=".RTX4070Activity" />
-        <activity android:name=".I512600KFActivity" />
-        <activity android:name=".SamsungOdysseyG6Activity" />
-        <activity android:name=".ProductoActivity" />
-        <activity android:name=".CategoryActivity" />
-        <activity android:name=".VentasActivity" />
+
+        <!-- Otras actividades -->
+        <activity
+            android:name=".ProcessorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GraphicsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MotherboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PowerSupplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CaseActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Otras actividades que ya tenías -->
+        <activity
+            android:name=".RTX4090Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".I914900KFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ryzen9950XActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RTX4070Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".I512600KFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SamsungOdysseyG6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VentasActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/DialogTheme">
-        </activity>
+            android:theme="@style/DialogTheme"
+            android:screenOrientation="portrait" />
+
+        <!-- Registro de Usuario -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registro de Usuario"
+            android:exported="false"
+            android:screenOrientation="portrait" />
     </application>
-
 </manifest>
-
-

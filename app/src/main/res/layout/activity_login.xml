@@ -37,4 +37,11 @@
         android:text="Iniciar sesión"
         android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_marginTop="8dp"/>
+
 </LinearLayout>

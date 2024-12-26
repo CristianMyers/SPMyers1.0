@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título de la lista -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procesadores"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- Contenedor LinearLayout para alinear el SearchView a la derecha -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <SearchView
+            android:id="@+id/searchViewProcessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:queryHint="Buscar procesador" />
+    </LinearLayout>
+
+    <!-- ListView para mostrar la lista de procesadores -->
+    <ListView
+        android:id="@+id/listViewProcessors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+
+

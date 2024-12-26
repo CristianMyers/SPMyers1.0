@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 navigateToCategory("Procesadores");
             } else if (id == R.id.nav_graphics) {
                 navigateToCategory("Gráficas");
+            } else if (id == R.id.nav_motherboards) {
+                navigateToCategory("Placas Madre");
             } else if (id == R.id.nav_ram) {
                 navigateToCategory("RAM");
             } else if (id == R.id.nav_power_supplies) {
@@ -142,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    
     private void setupProductButtons() {
         Button addToCartButton1 = findViewById(R.id.addToCartButton1);
         addToCartButton1.setOnClickListener(v -> addToCart(R.drawable.rtx_4090_image1, "RTX 4090 MSI", 1992780.00));
@@ -203,9 +206,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void navigateToCategory(String category) {
-        Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-        intent.putExtra("CATEGORY_NAME", category);
-        startActivity(intent);
+        if ("Procesadores".equals(category)) {
+            Intent intent = new Intent(MainActivity.this, ProcessorsActivity.class);
+            startActivity(intent);
+        } else if ("Gráficas".equals(category)) {
+            Intent intent = new Intent(MainActivity.this, GraphicsActivity.class);
+            startActivity(intent);
+        } else if ("Placas Madre".equals(category)) { // Agregar esta línea
+            Intent intent = new Intent(MainActivity.this, MotherboardActivity.class);
+            startActivity(intent);
+        } else if ("RAM".equals(category)) {
+            Intent intent = new Intent(MainActivity.this, RamActivity.class);
+            startActivity(intent);
+        } else if ("Fuentes de Poder".equals(category)) {
+            Intent intent = new Intent(MainActivity.this, PowerSupplyActivity.class);
+            startActivity(intent);
+        } else if ("Gabinetes".equals(category)) {
+            Intent intent = new Intent(MainActivity.this, CaseActivity.class);
+            startActivity(intent);
+        }
     }
 
     private void addToCart(int imageResId, String productName, double price) {
